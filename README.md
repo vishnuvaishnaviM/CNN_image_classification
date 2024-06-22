@@ -5,7 +5,7 @@ Implemented VGG-13 model for image classification. The CNN model is trained to c
 Setup & Installation:
 
 1. Clone the repository
-git clone https://github.com/your-username/cnn-image-classification-flask.git
+git clone [https://github.com/your-username/cnn-image-classification-flask.git](https://github.com/vishnuvaishnaviM/CNN_image_classification.git)
 cd cnn-image-classification-flask
 
 2. Install the required packages
