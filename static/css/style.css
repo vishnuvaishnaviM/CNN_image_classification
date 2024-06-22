@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8e6c1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 10rem;
+    width: 25rem;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 30px 120px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin: 30px 150px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #31708f;
+    height: 2rem;
+}
+
+/* Resize uploaded image to fixed dimensions */
+#uploaded-image {
+    display: none;
+    margin-top: 20px;
+    margin-left: 120px;
+    max-width: 100%; /* Ensure the image fits within the container */
+    width: 200px; /* Set the width to the desired size */
+    height: 200px; /* Set the height to the desired size */
+    object-fit: cover; /* Ensure the aspect ratio is maintained */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
